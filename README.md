@@ -22,7 +22,7 @@
 
 ```sh
 cd currentProjectFolder
-npm install
-Gulp (for running module bundler)
+npm install (Install dependencies)
+npm run watch (Build files)
 ```
 
