@@ -1,0 +1,10 @@
+{% set pageTitle = "Home - Nunjucks SASS Starter Template" %}
+{% set pageWrapperClass = "home" %}
+{% extends "base.njk" %}
+
+{% block content %}
+    <main>
+        {% include "components/home/main.njk" %}
+    </main>
+    {# {{ super() }} #}
+{% endblock %}

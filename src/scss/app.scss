@@ -1,0 +1,24 @@
+/*
+   Theme : Nunjucks-SASS-Starter-Template
+   Author: Yosua Indra
+   Personal Web : https://yosuaindra.com
+   Github : https://github.com/yosuaindra
+*/
+
+/*--------------------------------------------------------------
+# Global Components
+--------------------------------------------------------------*/
+@import './components/header';
+@import './components/footer';
+
+/*--------------------------------------------------------------
+# Page Home
+--------------------------------------------------------------*/
+@import './pages/home/hero';
+@import './pages/home/main';
+
+/*--------------------------------------------------------------
+# Page About
+--------------------------------------------------------------*/
+@import './pages/about/hero';
+@import './pages/about/main';

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ pageTitle }}</title>
+        {% include "components/global/seo.njk" %}
+        <link rel="stylesheet" href="./assets/css/app.min.css"/>
+    </head>
+    <body>
+        <div class="{{ pageWrapperClass }}">
+            {% include "components/global/header.njk" %}
+            {% block content %}content super{% endblock %}
+            {% include "components/global/footer.njk" %}
+        </div>
+    </body>
+</html>
